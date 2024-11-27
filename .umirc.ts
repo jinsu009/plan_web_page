@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: "jin's Dashboard",
   },
   routes: [
     {
@@ -15,7 +15,7 @@ export default defineConfig({
       redirect: '/home',
     },
     {
-      name: 'HOME',
+      name: 'Home',
       path: '/home',
       component: './Home',
     },
