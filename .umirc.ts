@@ -1,14 +1,13 @@
 import { defineConfig } from '@umijs/max';
 
+// config.ts
 export default defineConfig({
   antd: {},
   access: {},
   model: {},
   initialState: {},
   request: {},
-  layout: {
-    title: "jin's Dashboard",
-  },
+  layout: {},
   routes: [
     {
       path: '/',
